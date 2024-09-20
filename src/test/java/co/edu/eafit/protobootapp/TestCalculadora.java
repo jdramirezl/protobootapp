@@ -59,6 +59,6 @@ public class TestCalculadora {
     @Test
     public void testCuboNegativo() {
         Calculadora calc = new Calculadora();
-        assertEquals(-64.0, calc.cubo(-3.0), 0);
+        assertEquals(-64.0, calc.cubo(-4.0), 0);
     }
 }
