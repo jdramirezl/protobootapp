@@ -42,5 +42,5 @@ public class ProtobootappApplication {
     public String cubo(@RequestParam(value = "numero", defaultValue = "0") Double numero) {
         this.calculadora = new Calculadora();
         return String.format("El cubo de %f es %f", numero, this.calculadora.cubo(numero));
-    }
+    }// change
 }
