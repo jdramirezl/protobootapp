@@ -48,5 +48,6 @@ public class HttpRequestTest {
     public void testCuboNumero() throws Exception {
         assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/cubo?numero=3",
                 String.class)).containsPattern("BAD PATTERN");
+                // String.class)).containsPattern("El cubo de 3[\\.,]000000 es 27[\\.,]000000");
     }// change
 }
