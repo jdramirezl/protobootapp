@@ -11,6 +11,7 @@ phases:
     commands:
       - mvn compile
       # - mvn test
+      # other change
       - mvn install
       # - command
   post_build:
